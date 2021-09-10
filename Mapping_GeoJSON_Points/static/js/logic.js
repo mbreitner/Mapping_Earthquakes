@@ -1,6 +1,5 @@
 // Create the map object with center at the San Francisco airport.
-let map = L.map('mapid').setView([37.5, -122.5], 10);
-
+let map = L.map('mapid').setView([30, 30], 2);
 
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',

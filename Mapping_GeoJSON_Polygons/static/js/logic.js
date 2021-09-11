@@ -51,4 +51,9 @@ d3.json(torontoHoods).then(function(data) {
 });
 
 // Then Add our 'graymap' tile layer to the map.
+<<<<<<< HEAD
 streets.addTo(map);
+=======
+streets.addTo(map);
+
+>>>>>>> a9bed5d45261a503e2dde59163ee5ddb87a92b2a
